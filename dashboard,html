@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Industrial Product Management</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Dashboard</h1>
+        <nav>
+            <a href="projects.html">Projects</a>
+            <a href="storage.html">Storage</a>
+            <a href="index.html">Logout</a>
+        </nav>
+    </header>
+
+    <section class="dashboard-section">
+        <h2>Open Projects</h2>
+        <div id="open-projects">
+            <!-- Dynamic list of open projects will be displayed here -->
+        </div>
+    </section>
+
+    <section class="dashboard-section">
+        <h2>Important Notes</h2>
+        <div id="important-notes">
+            <!-- Important notes from Admin or HR will be displayed here -->
+        </div>
+    </section>
+
+    <section class="dashboard-section">
+        <h2>Public Message Board</h2>
+        <div id="public-messages">
+            <!-- Public messages will be displayed here -->
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
